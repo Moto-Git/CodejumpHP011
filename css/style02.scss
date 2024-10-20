@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    // box-sizingの初期値はcontent-box
+    // box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+// font setting
+body {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    // font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1;
+    // font-weight: 500;
+}
+
+// font setting end
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    // display: flex;
+    // justify-content: space-between;
+
+    li {
+        list-style: none;
+        // list-style-position: inside;
+    }
+}
+
+
